@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Facultés & Filières — Institut Lumière</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css" />
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+  <div id="nav-slot" data-active="facultes"></div>
+
+  <!-- HERO -->
+  <section class="relative h-[60vh] min-h-[420px] flex items-end overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1607237138185-eedd9c632b0b?w=1920&q=80" alt="" class="absolute inset-0 w-full h-full object-cover"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/60 to-stone-900/40"></div>
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-10 pb-16 w-full text-white">
+      <div class="text-amber-400 text-xs tracking-[0.3em] uppercase mb-4">Domaines d'études</div>
+      <h1 class="font-serif text-5xl md:text-7xl font-bold leading-tight">Nos Facultés.</h1>
+      <p class="text-stone-200 mt-4 max-w-xl text-lg font-light">Six facultés d'excellence, vingt-cinq filières, des milliers de parcours possibles.</p>
+    </div>
+  </section>
+
+  <!-- FILIÈRES -->
+  <section class="max-w-7xl mx-auto px-6 lg:px-10 py-24 space-y-24">
+
+    <article id="info" class="grid lg:grid-cols-2 gap-12 items-center">
+      <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=1000&q=80" alt="" class="w-full h-[450px] object-cover order-1 lg:order-1"/>
+      <div class="order-2">
+        <div class="text-amber-600 font-serif text-3xl mb-2">01.</div>
+        <h2 class="font-serif text-4xl font-bold mb-4">Génie Informatique</h2>
+        <p class="text-stone-600 mb-6 leading-relaxed">Développement logiciel, intelligence artificielle, cybersécurité, science des données et systèmes embarqués. Une faculté à la pointe des technologies de l'information.</p>
+        <ul class="space-y-2 text-stone-700 border-l-2 border-amber-500 pl-5">
+          <li>— Licence en Informatique <span class="text-stone-400">(3 ans)</span></li>
+          <li>— Master Data Science & IA <span class="text-stone-400">(2 ans)</span></li>
+          <li>— Master Cybersécurité <span class="text-stone-400">(2 ans)</span></li>
+          <li>— Doctorat en Informatique <span class="text-stone-400">(3 ans)</span></li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="gestion" class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="order-2 lg:order-1">
+        <div class="text-amber-600 font-serif text-3xl mb-2">02.</div>
+        <h2 class="font-serif text-4xl font-bold mb-4">Sciences de Gestion</h2>
+        <p class="text-stone-600 mb-6 leading-relaxed">Marketing, finance, management, ressources humaines, audit et entrepreneuriat. Former les décideurs de l'économie de demain.</p>
+        <ul class="space-y-2 text-stone-700 border-l-2 border-amber-500 pl-5">
+          <li>— Licence en Gestion <span class="text-stone-400">(3 ans)</span></li>
+          <li>— Master Finance & Audit <span class="text-stone-400">(2 ans)</span></li>
+          <li>— MBA Management Stratégique <span class="text-stone-400">(2 ans)</span></li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1000&q=80" alt="" class="w-full h-[450px] object-cover order-1 lg:order-2"/>
+    </article>
+
+    <article id="droit" class="grid lg:grid-cols-2 gap-12 items-center">
+      <img src="https://images.unsplash.com/photo-1505664194779-8beaceb93744?w=1000&q=80" alt="" class="w-full h-[450px] object-cover"/>
+      <div>
+        <div class="text-amber-600 font-serif text-3xl mb-2">03.</div>
+        <h2 class="font-serif text-4xl font-bold mb-4">Droit & Sciences Politiques</h2>
+        <p class="text-stone-600 mb-6 leading-relaxed">Droit des affaires, droit public, relations internationales, science politique et droit pénal.</p>
+        <ul class="space-y-2 text-stone-700 border-l-2 border-amber-500 pl-5">
+          <li>— Licence en Droit <span class="text-stone-400">(3 ans)</span></li>
+          <li>— Master Droit des Affaires <span class="text-stone-400">(2 ans)</span></li>
+          <li>— Master Relations Internationales <span class="text-stone-400">(2 ans)</span></li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="medecine" class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="order-2 lg:order-1">
+        <div class="text-amber-600 font-serif text-3xl mb-2">04.</div>
+        <h2 class="font-serif text-4xl font-bold mb-4">Sciences de la Santé</h2>
+        <p class="text-stone-600 mb-6 leading-relaxed">Médecine, pharmacie, soins infirmiers, kinésithérapie et santé publique. Une formation rigoureuse au service du soin.</p>
+        <ul class="space-y-2 text-stone-700 border-l-2 border-amber-500 pl-5">
+          <li>— Doctorat en Médecine <span class="text-stone-400">(7 ans)</span></li>
+          <li>— Pharmacie <span class="text-stone-400">(6 ans)</span></li>
+          <li>— Licence en Soins Infirmiers <span class="text-stone-400">(3 ans)</span></li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1000&q=80" alt="" class="w-full h-[450px] object-cover order-1 lg:order-2"/>
+    </article>
+
+    <article id="lettres" class="grid lg:grid-cols-2 gap-12 items-center">
+      <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1000&q=80" alt="" class="w-full h-[450px] object-cover"/>
+      <div>
+        <div class="text-amber-600 font-serif text-3xl mb-2">05.</div>
+        <h2 class="font-serif text-4xl font-bold mb-4">Lettres & Langues</h2>
+        <p class="text-stone-600 mb-6 leading-relaxed">Littérature, linguistique, traduction, langues étrangères appliquées et sciences humaines.</p>
+        <ul class="space-y-2 text-stone-700 border-l-2 border-amber-500 pl-5">
+          <li>— Licence en Langues Appliquées <span class="text-stone-400">(3 ans)</span></li>
+          <li>— Master Traduction & Interprétariat <span class="text-stone-400">(2 ans)</span></li>
+          <li>— Licence en Lettres Modernes <span class="text-stone-400">(3 ans)</span></li>
+        </ul>
+      </div>
+    </article>
+
+    <article id="archi" class="grid lg:grid-cols-2 gap-12 items-center">
+      <div class="order-2 lg:order-1">
+        <div class="text-amber-600 font-serif text-3xl mb-2">06.</div>
+        <h2 class="font-serif text-4xl font-bold mb-4">Architecture & Design</h2>
+        <p class="text-stone-600 mb-6 leading-relaxed">Architecture, urbanisme, design d'espace, design produit et arts visuels. Façonner les espaces et objets de demain.</p>
+        <ul class="space-y-2 text-stone-700 border-l-2 border-amber-500 pl-5">
+          <li>— Diplôme d'Architecte <span class="text-stone-400">(5 ans)</span></li>
+          <li>— Master Design Produit <span class="text-stone-400">(2 ans)</span></li>
+          <li>— Licence Arts Visuels <span class="text-stone-400">(3 ans)</span></li>
+        </ul>
+      </div>
+      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1000&q=80" alt="" class="w-full h-[450px] object-cover order-1 lg:order-2"/>
+    </article>
+
+  </section>
+
+  <div id="footer-slot"></div>
+  <script src="./assets/js/site.js"></script>
+</body>
+</html>

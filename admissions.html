@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admissions — Institut Lumière</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css" />
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+  <div id="nav-slot" data-active="admissions"></div>
+
+  <section class="relative h-[60vh] min-h-[420px] flex items-end overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1920&q=80" alt="" class="absolute inset-0 w-full h-full object-cover"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/60 to-stone-900/40"></div>
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-10 pb-16 w-full text-white">
+      <div class="text-amber-400 text-xs tracking-[0.3em] uppercase mb-4">Rejoindre l'Institut</div>
+      <h1 class="font-serif text-5xl md:text-7xl font-bold leading-tight">Admissions<br/><span class="italic font-medium">2026—2027</span></h1>
+    </div>
+  </section>
+
+  <!-- ÉTAPES -->
+  <section class="max-w-7xl mx-auto px-6 lg:px-10 py-24">
+    <div class="text-amber-600 text-xs tracking-[0.3em] uppercase mb-4">Le parcours</div>
+    <h2 class="font-serif text-4xl md:text-5xl font-bold mb-16">Quatre étapes vers votre admission.</h2>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="relative pt-8 border-t-2 border-stone-900">
+        <div class="absolute -top-5 left-0 bg-stone-50 pr-4 font-serif text-4xl text-amber-600">01</div>
+        <h3 class="font-serif text-xl font-bold mb-3">Préparer son dossier</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">Rassemblez les documents demandés et préparez votre lettre de motivation.</p>
+      </div>
+      <div class="relative pt-8 border-t-2 border-stone-900">
+        <div class="absolute -top-5 left-0 bg-stone-50 pr-4 font-serif text-4xl text-amber-600">02</div>
+        <h3 class="font-serif text-xl font-bold mb-3">Candidater en ligne</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">Remplissez le formulaire sur notre plateforme de candidature.</p>
+      </div>
+      <div class="relative pt-8 border-t-2 border-stone-900">
+        <div class="absolute -top-5 left-0 bg-stone-50 pr-4 font-serif text-4xl text-amber-600">03</div>
+        <h3 class="font-serif text-xl font-bold mb-3">Test & entretien</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">Test écrit et entretien de motivation devant un jury académique.</p>
+      </div>
+      <div class="relative pt-8 border-t-2 border-stone-900">
+        <div class="absolute -top-5 left-0 bg-stone-50 pr-4 font-serif text-4xl text-amber-600">04</div>
+        <h3 class="font-serif text-xl font-bold mb-3">Inscription définitive</h3>
+        <p class="text-stone-600 text-sm leading-relaxed">Validation de votre admission et finalisation de l'inscription.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONDITIONS / DOCUMENTS -->
+  <section class="bg-stone-100 py-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10 grid lg:grid-cols-2 gap-12">
+      <div class="bg-white p-10">
+        <div class="text-amber-600 text-xs tracking-[0.3em] uppercase mb-4">Conditions</div>
+        <h3 class="font-serif text-3xl font-bold mb-6">Critères d'admission</h3>
+        <ul class="space-y-4 text-stone-700">
+          <li class="flex gap-4 border-b border-stone-200 pb-4"><span class="text-amber-600 font-serif text-xl">→</span> Baccalauréat ou diplôme équivalent reconnu</li>
+          <li class="flex gap-4 border-b border-stone-200 pb-4"><span class="text-amber-600 font-serif text-xl">→</span> Moyenne générale minimale de 12/20</li>
+          <li class="flex gap-4 border-b border-stone-200 pb-4"><span class="text-amber-600 font-serif text-xl">→</span> Maîtrise du français et de l'anglais</li>
+          <li class="flex gap-4"><span class="text-amber-600 font-serif text-xl">→</span> Réussite au test d'entrée et à l'entretien</li>
+        </ul>
+      </div>
+      <div class="bg-white p-10">
+        <div class="text-amber-600 text-xs tracking-[0.3em] uppercase mb-4">Documents</div>
+        <h3 class="font-serif text-3xl font-bold mb-6">Pièces à fournir</h3>
+        <ul class="space-y-4 text-stone-700">
+          <li class="flex gap-4 border-b border-stone-200 pb-4"><span class="text-amber-600 font-serif text-xl">→</span> Copie certifiée du baccalauréat</li>
+          <li class="flex gap-4 border-b border-stone-200 pb-4"><span class="text-amber-600 font-serif text-xl">→</span> Relevés des trois dernières années</li>
+          <li class="flex gap-4 border-b border-stone-200 pb-4"><span class="text-amber-600 font-serif text-xl">→</span> Pièce d'identité + 2 photos récentes</li>
+          <li class="flex gap-4"><span class="text-amber-600 font-serif text-xl">→</span> Lettre de motivation et CV</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="relative py-32 overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1532649842857-9b2b89be9381?w=1920&q=80" alt="" class="absolute inset-0 w-full h-full object-cover"/>
+    <div class="absolute inset-0 bg-stone-900/85"></div>
+    <div class="relative max-w-3xl mx-auto px-6 text-center text-white">
+      <h2 class="font-serif text-4xl md:text-5xl font-bold mb-6">Votre dossier vous attend.</h2>
+      <p class="text-stone-300 mb-10 text-lg">Les candidatures sont ouvertes jusqu'au 31 juillet 2026.</p>
+      <a href="#" class="inline-block bg-amber-500 hover:bg-amber-600 text-stone-900 px-10 py-4 font-semibold text-sm tracking-widest transition">COMMENCER MA CANDIDATURE</a>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+  <script src="./assets/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hébergement étudiant — Institut Lumière</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/site.css" />
+</head>
+<body class="bg-stone-50 text-stone-900 antialiased">
+  <div id="nav-slot" data-active="hebergement"></div>
+
+  <section class="relative h-[60vh] min-h-[420px] flex items-end overflow-hidden">
+    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?w=1920&q=80" alt="" class="absolute inset-0 w-full h-full object-cover"/>
+    <div class="absolute inset-0 bg-gradient-to-t from-stone-900 via-stone-900/60 to-stone-900/40"></div>
+    <div class="relative max-w-7xl mx-auto px-6 lg:px-10 pb-16 w-full text-white">
+      <div class="text-amber-400 text-xs tracking-[0.3em] uppercase mb-4">Vie étudiante</div>
+      <h1 class="font-serif text-5xl md:text-7xl font-bold leading-tight">Hébergement.</h1>
+      <p class="text-stone-200 mt-4 max-w-xl text-lg font-light">Trois résidences modernes, sécurisées, à quelques pas du campus.</p>
+    </div>
+  </section>
+
+  <!-- RÉSIDENCES -->
+  <section class="max-w-7xl mx-auto px-6 lg:px-10 py-24 grid md:grid-cols-3 gap-8">
+    <article class="bg-white shadow-sm hover:shadow-xl transition group">
+      <div class="overflow-hidden h-64">
+        <img src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&q=80" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-700"/>
+      </div>
+      <div class="p-8">
+        <div class="text-amber-600 text-xs tracking-widest mb-2">RÉSIDENCE A · STANDARD</div>
+        <h3 class="font-serif text-2xl font-bold mb-3">Campus Centre</h3>
+        <p class="text-stone-600 text-sm mb-6">Chambres individuelles meublées, à 5 minutes des amphithéâtres.</p>
+        <div class="border-t border-stone-200 pt-4 flex justify-between items-baseline">
+          <span class="text-xs tracking-widest text-stone-500">À PARTIR DE</span>
+          <span class="font-serif text-2xl">1 200 <span class="text-sm">DH/mois</span></span>
+        </div>
+      </div>
+    </article>
+
+    <article class="bg-white shadow-sm hover:shadow-xl transition group lg:-translate-y-4">
+      <div class="overflow-hidden h-64">
+        <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-700"/>
+      </div>
+      <div class="p-8">
+        <div class="text-amber-600 text-xs tracking-widest mb-2">RÉSIDENCE B · CONFORT</div>
+        <h3 class="font-serif text-2xl font-bold mb-3">Les Jardins</h3>
+        <p class="text-stone-600 text-sm mb-6">Studios partagés et espaces communs spacieux dans un parc verdoyant.</p>
+        <div class="border-t border-stone-200 pt-4 flex justify-between items-baseline">
+          <span class="text-xs tracking-widest text-stone-500">À PARTIR DE</span>
+          <span class="font-serif text-2xl">900 <span class="text-sm">DH/mois</span></span>
+        </div>
+      </div>
+    </article>
+
+    <article class="bg-white shadow-sm hover:shadow-xl transition group">
+      <div class="overflow-hidden h-64">
+        <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&q=80" alt="" class="w-full h-full object-cover group-hover:scale-105 transition duration-700"/>
+      </div>
+      <div class="p-8">
+        <div class="text-amber-600 text-xs tracking-widest mb-2">RÉSIDENCE C · PREMIUM</div>
+        <h3 class="font-serif text-2xl font-bold mb-3">Belvédère</h3>
+        <p class="text-stone-600 text-sm mb-6">Studios indépendants entièrement équipés avec vue panoramique.</p>
+        <div class="border-t border-stone-200 pt-4 flex justify-between items-baseline">
+          <span class="text-xs tracking-widest text-stone-500">À PARTIR DE</span>
+          <span class="font-serif text-2xl">1 800 <span class="text-sm">DH/mois</span></span>
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="bg-stone-100 py-24">
+    <div class="max-w-7xl mx-auto px-6 lg:px-10">
+      <div class="text-amber-600 text-xs tracking-[0.3em] uppercase mb-4">Services inclus</div>
+      <h2 class="font-serif text-4xl md:text-5xl font-bold mb-16">Tout ce qu'il faut pour réussir.</h2>
+     <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-signal"></i></div>
+    <h4 class="font-semibold">Wi-Fi haut débit</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-user-shield"></i></div>
+    <h4 class="font-semibold">Sécurité 24/7</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-graduation-cap"></i></div>
+    <h4 class="font-semibold">Salles d'étude</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-mug-hot"></i></div>
+    <h4 class="font-semibold">Cafétéria</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-dumbbell"></i></div>
+    <h4 class="font-semibold">Salle de sport</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-shirt"></i></div>
+    <h4 class="font-semibold">Laverie</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-temperature-high"></i></div>
+    <h4 class="font-semibold">Eau chaude</h4>
+  </div>
+
+  <div class="border-t-2 border-stone-900 pt-4">
+    <div class="text-3xl mb-2"><i class="fa-solid fa-hand-sparkles"></i></div>
+    <h4 class="font-semibold">Ménage hebdo</h4>
+  </div>
+
+</div>
+    </div>
+  </section>
+
+  <div id="footer-slot"></div>
+  <script src="./assets/js/site.js"></script>
+</body>
+</html>
