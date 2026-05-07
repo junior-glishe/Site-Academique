@@ -4,12 +4,12 @@
 const NAV = (active) => `
 <header class="absolute top-0 left-0 right-0 z-50">
   <nav class="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex items-center justify-between">
-    <a href="/accueil.html" class="flex items-center gap-3">
+    <a href="/index.html" class="flex items-center gap-3">
       <div class="w-10 h-10 border-2 border-white flex items-center justify-center text-white font-serif text-lg italic">L</div>
       <span class="font-serif text-xl text-white tracking-wide">Institut Lumière</span>
     </a>
     <ul class="hidden lg:flex items-center gap-8 text-sm font-medium text-white/90">
-      <li><a href="/accueil.html" class="hover:text-white ${active==='accueil'?'border-b-2 border-amber-400 pb-1':''}">Accueil</a></li>
+      <li><a href="/index.html" class="hover:text-white ${active==='index'?'border-b-2 border-amber-400 pb-1':''}">Accueil</a></li>
       <li class="relative group">
         <button class="hover:text-white flex items-center gap-1 pb-1 ${active==='facultes'?'border-b-2 border-amber-400':''}">
           Facultés
@@ -33,7 +33,7 @@ const NAV = (active) => `
     <button id="menuBtn" class="lg:hidden text-white p-2"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg></button>
   </nav>
   <div id="mobileMenu" class="hidden lg:hidden bg-stone-900 text-white">
-    <a href="/accueil.html" class="block px-6 py-3 border-t border-stone-700">Accueil</a>
+    <a href="/index.html" class="block px-6 py-3 border-t border-stone-700">Accueil</a>
     <a href="/facultes.html" class="block px-6 py-3 border-t border-stone-700">Facultés</a>
     <a href="/admissions.html" class="block px-6 py-3 border-t border-stone-700">Admissions</a>
     <a href="/recherche.html" class="block px-6 py-3 border-t border-stone-700">Recherche</a>
@@ -54,7 +54,7 @@ const FOOTER = `
     </div>
     <div>
       <h4 class="text-white font-semibold mb-4 text-xs tracking-widest">NAVIGATION</h4>
-      <ul class="space-y-2 text-sm"><li><a href="/accueil.html" class="hover:text-amber-400">Accueil</a></li><li><a href="/facultes.html" class="hover:text-amber-400">Facultés</a></li><li><a href="/admissions.html" class="hover:text-amber-400">Admissions</a></li><li><a href="/recherche.html" class="hover:text-amber-400">Recherche</a></li></ul>
+      <ul class="space-y-2 text-sm"><li><a href="/index.html" class="hover:text-amber-400">Accueil</a></li><li><a href="/facultes.html" class="hover:text-amber-400">Facultés</a></li><li><a href="/admissions.html" class="hover:text-amber-400">Admissions</a></li><li><a href="/recherche.html" class="hover:text-amber-400">Recherche</a></li></ul>
     </div>
     <div>
       <h4 class="text-white font-semibold mb-4 text-xs tracking-widest">VIE ÉTUDIANTE</h4>
@@ -62,7 +62,7 @@ const FOOTER = `
     </div>
     <div>
       <h4 class="text-white font-semibold mb-4 text-xs tracking-widest">CONTACT</h4>
-      <p class="text-sm text-stone-400 leading-relaxed">15, Avenue de l'Université<br/>20000 Casablanca<br/><br/>+212 5 22 00 00 00<br/>contact@institut-lumiere.edu</p>
+      <p class="text-sm text-stone-400 leading-relaxed">15, Avenue de l'Université<br/>Cotonou<br/><br/>+229 57 22 00 00 00<br/>contact@institut-lumiere.edu</p>
     </div>
   </div>
   <div class="border-t border-stone-800 py-6 text-center text-xs text-stone-500 tracking-wider">© 2026 INSTITUT LUMIÈRE — TOUS DROITS RÉSERVÉS</div>
